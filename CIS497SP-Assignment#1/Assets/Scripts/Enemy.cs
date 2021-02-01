@@ -10,5 +10,6 @@ using UnityEngine;
 
 public abstract class Enemy
 {
+    private int health = 10;
     public abstract void Attack();
 }
